@@ -118,7 +118,7 @@ tenor = \relative c' {
   r\breve r1 r2 bf2 a2. bf4 a2 g \ficta fs g r2
   bf2~ 
   bf4 c4 d2 d c c1 r2
-  a2 bf4 c d1 a2 bf bf d c4 bf a2 d2 c bf e1 d2 d c2. bf4 a1 g2 bf2 bf1 r\breve r2
+  a2 bf4 c d1 a2 bf bf d c4 bf a2 d2 c bf \ficta ef1 d2 d c2. bf4 a1 g2 bf2 bf1 r\breve r2
   bf2 a2. bf4 a2 g fs g g g c2. bf4 bf2 bf1 a2 bf d \ficta ef bf2 c d \ficta ef1 d2 d
     bf2. a4 g2 a c1 a2 a1 bf4 a g f g1 fs2 g bf2 bf1 r\breve r2
   bf2 a2. bf4 a2 g fs g bf2 bf4 bf bf2 a a2. f4 g a bf c d2 d, 
