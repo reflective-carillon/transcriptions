@@ -237,7 +237,7 @@ bassVerse = \lyricmode {
   \consists "Ambitus_engraver"
 \consists "Rhythmic_column_engraver" 
    % } {  \set Score.skipBars = ##t \skip 1*4  \incipit \sopranoIncipit \soprano }
-    } { \soprano }
+    } { \override Score.BarNumber.break-visibility = ##(#f #t #t) \soprano }
     \addlyrics { \sopranoVerse }
     \new Staff \with {
        midiInstrument = "bassoon"
