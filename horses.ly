@@ -14,7 +14,6 @@ global = {
   \key g \major
   \numericTimeSignature
   \time 4/4
-  \tempo 2 = 120
   \override Score.BarNumber.break-visibility = ##(#f #t #t)
 }
 
@@ -192,10 +191,12 @@ scoreATromboneIPart = \new Staff \with {
 
 scoreATromboneIIPart = \new Staff \with {
   midiInstrument = "trombone"
+  instrumentName = "was 8va"
 } { \clef bass \scoreATromboneII }
 
 scoreATromboneIIIPart = \new Staff \with {
   midiInstrument = "bassoon"
+  instrumentName = "was 8va"
 } { \clef bass \scoreATromboneIII }
 
 scoreATromboneIVPart = \new Staff \with {
@@ -206,7 +207,10 @@ scoreATromboneIVPart = \new Staff \with {
 \score {
   \new StaffGroup
   <<
+    \new GrandStaff <<
     \scoreATromboneIPartTreble
+    \scoreATromboneIPart
+    >>
     \scoreATromboneIIPart
     \scoreATromboneIIIPart
     \scoreATromboneIVPart
@@ -218,6 +222,6 @@ scoreATromboneIVPart = \new Staff \with {
     }
   }
   \midi {
-
+  \tempo 2 = 120
   }
 }
