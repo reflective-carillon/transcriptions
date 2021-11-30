@@ -74,9 +74,9 @@ sopranoVoice = \relative c'' {
   d4 c2
   \bar "||"
   
-  d4 d( e)
-  d d( c)
-  bf bf( c)
+  d4 d4.( e8)
+  d4 d4.( c8)
+  bf4 bf( c)
   d2.
   \bar "||" \break
   
