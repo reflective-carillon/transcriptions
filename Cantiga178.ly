@@ -39,7 +39,7 @@ sopranoVoice = \relative c'' {
   bf4 c8( bf d c)
   bf8( a) g4( f)
   g4 bf4.( a8)
-  g2( f4)
+  g4( f2)
   g2.
   \bar "||" \break
   
